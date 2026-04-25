@@ -6,6 +6,7 @@ Este repositório apresenta uma coleção de Skills especializadas para o Manus,
 
 ## 📑 Índice
 - [Academic Data Visualizer](#-academic-data-visualizer-academic-data-visualizer)
+- [Bio-Psico-Stats Expert](#-bio-psico-stats-expert-bio-psico-stats-expert)
 - [Academic Document Oracle](#-academic-document-oracle-academic-document-oracle)
 - [Academic Methodology Builder](#-academic-methodology-builder-academic-methodology-builder)
 - [Academic Network Intelligence](#-academic-network-intelligence-academic-network-intelligence)
@@ -32,6 +33,37 @@ Funcionalidades e Nuances Técnicas: Esta skill opera como um orquestrador de bi
 •Exportação em Alta Qualidade: Ao receber um prompt como "Exporte o gráfico para um arquivo PNG com 300 DPI.", a skill utiliza parâmetros de resolução e formato que garantem a integridade visual para submissão em periódicos.
 
 ---
+
+## 📈 Bio-Psico-Stats Expert (bio-psico-stats-expert)
+Descrição: Esta skill atua como especialista em estatística aplicada, cobrindo o espectro da Psicometria, Bioestatística e Psicoestatística. Integra metodologias de análise de sinais (Zebende) e desempenho comportamental (Marinho), operando sob protocolo anti-alucinação.
+
+Funcionalidades e Nuances Técnicas: A skill transita entre os extremos da análise estatística em ciências da saúde e humanas, garantindo precisão e validade em cada etapa. Sua funcionalidade reside na capacidade de adaptar a abordagem metodológica à natureza dos dados e aos objetivos da pesquisa, ancorada em evidências científicas.
+
+Análise de Sinais (Pilar Zebende): Para dados como EEG, variabilidade da frequência cardíaca ou outros sinais biológicos ruidosos e não estacionários, a skill emprega o Detrended Cross-Correlation Analysis (DCCA) e o Detrended Multiple Cross-Correlation (DMC). Estes métodos identificam correlações e dependências de longo alcance, removendo tendências espúrias que comprometeriam análises lineares. A nuance técnica reside na capacidade de discernir a escala temporal das correlações, evitando interpretações simplistas de fenômenos dinâmicos.
+
+Análise de Desempenho Comportamental (Pilar Marinho): Focada na psicometria aplicada e psicoestatística educacional, a skill utiliza os princípios do Precision Teaching. Isso envolve a medição da frequência/taxa de resposta e a análise da aceleração através do Standard Celeration Chart (GPA). A especificidade é a avaliação da fluência (precisão + velocidade) para fundamentar decisões clínicas e pedagógicas, indo além da contagem de acertos.
+
+Modelagem de Equações Estruturais (SEM) e Análise de Redes: A skill integra o SEM para validar constructos latentes e investigar mecanismos de mediação e moderação, para entender relações causais. A Análise de Redes (via Gaussian Graphical Models) mapeia a interconectividade entre sintomas ou variáveis, identificando "nós centrais" que podem ser alvos terapêuticos. A nuance é a aplicação dessas técnicas com entendimento de suas premissas e limitações.
+
+Protocolo de Rigor Científico (Anti-Alucinação): Um diferencial técnico é o protocolo integrado que proíbe inferências sem base empírica. Antes de qualquer análise, a skill verifica a validade das premissas matemáticas e exige a ancoragem em constructos validados em repositórios como Google Scholar. Cada sugestão metodológica é acompanhada da referência ao autor ou método (ex: Zebende, 2011; Marinho et al., 2024), garantindo a rastreabilidade e a confiabilidade das informações.
+
+Casos de Uso e Especificidades: A skill é para pesquisadores que necessitam de análises estatísticas em diversas áreas:
+
+• Neurociência: Análise de sinais de EEG para correlacionar atividade cerebral com desempenho cognitivo, utilizando DCCA/DMC para filtrar ruídos fisiológicos.
+
+• Psicologia Clínica: Validação de instrumentos psicométricos via SEM, identificação de redes de sintomas em transtornos mentais e avaliação da eficácia de intervenções comportamentais com base na fluência.
+
+• Educação: Monitoramento da aceleração da aprendizagem e tomada de decisão pedagógica baseada em dados de frequência de resposta.
+
+• Bioestatística: Análise de séries temporais de dados de saúde (ex: variabilidade cardíaca, níveis hormonais) para identificar padrões e correlações não lineares.
+
+Integração com Outras Skills Acadêmicas:
+
+• scite-ai-assistant: Utilizada para verificar a recepção e o suporte empírico de métodos estatísticos ou constructos teóricos antes de sua aplicação.
+
+• academic-document-oracle: Garante que as interpretações e conclusões estatísticas sejam estritamente baseadas em documentos fornecidos, minimizando alucinações e fornecendo citações ABNT.
+
+• scientific-writing-reviewer: Assegura que a comunicação dos resultados estatísticos seja clara, concisa e livre de maneirismos de IA, mantendo o rigor e o tom acadêmico para publicações.
 
 ## 🔮 Academic Document Oracle (academic-document-oracle)
 Descrição: Um sistema de Geração Aumentada por Recuperação (RAG) rigoroso, que responde a perguntas exclusivamente com base em documentos fornecidos, minimizando alucinações e gerando resumos com citações ABNT.
