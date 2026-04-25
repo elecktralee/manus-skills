@@ -35,17 +35,19 @@ Funcionalidades e Nuances Técnicas: Esta skill opera como um orquestrador de bi
 ---
 
 ## 📈 Bio-Psico-Stats Expert (bio-psico-stats-expert)
-Descrição: Esta skill atua como especialista em estatística aplicada, cobrindo o espectro da Psicometria, Bioestatística e Psicoestatística. Integra metodologias de análise de sinais (Zebende) e desempenho comportamental (Marinho), operando sob protocolo anti-alucinação.
+Descrição: Esta skill atua como especialista em estatística aplicada, cobrindo o espectro da Psicometria, Bioestatística e Psicoestatística. Integra metodologias de análise de sinais (Zebende), desempenho comportamental (Marinho), controle de estímulo (Reynolds) e delineamento experimental (Shaughnessy), operando sob protocolo anti-alucinação.
 
-Funcionalidades e Nuances Técnicas: A skill transita entre os extremos da análise estatística em ciências da saúde e humanas, garantindo precisão e validade em cada etapa. Sua funcionalidade reside na capacidade de adaptar a abordagem metodológica à natureza dos dados e aos objetivos da pesquisa, ancorada em evidências científicas.
+Funcionalidades e Nuances Técnicas: A skill transita entre os extremos da análise estatística em ciências da saúde e humanas, garantindo precisão e validade em cada etapa. Sua funcionalidade reside na capacidade de adaptar a abordagem metodológica à natureza dos dados e aos objetivos da pesquisa, ancorada em evidências científicas e no reporte de tamanhos de efeito e intervalos de confiança conforme Shaughnessy et al. (9ª ed.).
 
 Análise de Sinais (Pilar Zebende): Para dados como EEG, variabilidade da frequência cardíaca ou outros sinais biológicos ruidosos e não estacionários, a skill emprega o Detrended Cross-Correlation Analysis (DCCA) e o Detrended Multiple Cross-Correlation (DMC). Estes métodos identificam correlações e dependências de longo alcance, removendo tendências espúrias que comprometeriam análises lineares. A nuance técnica reside na capacidade de discernir a escala temporal das correlações, evitando interpretações simplistas de fenômenos dinâmicos.
 
 Análise de Desempenho Comportamental (Pilar Marinho): Focada na psicometria aplicada e psicoestatística educacional, a skill utiliza os princípios do Precision Teaching. Isso envolve a medição da frequência/taxa de resposta e a análise da aceleração através do Standard Celeration Chart (GPA). A especificidade é a avaliação da fluência (precisão + velocidade) para fundamentar decisões clínicas e pedagógicas, indo além da contagem de acertos.
 
-Modelagem de Equações Estruturais (SEM) e Análise de Redes: A skill integra o SEM para validar constructos latentes e investigar mecanismos de mediação e moderação, para entender relações causais. A Análise de Redes (via Gaussian Graphical Models) mapeia a interconectividade entre sintomas ou variáveis, identificando "nós centrais" que podem ser alvos terapêuticos. A nuance é a aplicação dessas técnicas com entendimento de suas premissas e limitações.
+Modelagem de Equações Estruturais (SEM), Redes e Ordem: A skill integra o SEM para validar constructos latentes e investigar mecanismos de mediação e moderação. A Análise de Redes (via Gaussian Graphical Models) mapeia a interconectividade entre sintomas ou variáveis, identificando "nós centrais". Para dados não-paramétricos e escalas Likert, aplica relações de ordem e posto como Spearman ($\rho$) e Kendall ($\tau$), além de Modelos de Crescimento Latente (LGCM) para trajetórias longitudinais.
 
-Protocolo de Rigor Científico (Anti-Alucinação): Um diferencial técnico é o protocolo integrado que proíbe inferências sem base empírica. Antes de qualquer análise, a skill verifica a validade das premissas matemáticas e exige a ancoragem em constructos validados em repositórios como Google Scholar. Cada sugestão metodológica é acompanhada da referência ao autor ou método (ex: Zebende, 2011; Marinho et al., 2024), garantindo a rastreabilidade e a confiabilidade das informações.
+Validade e Controle (Pilar Reynolds): Em experimentos online (Gorilla/PsyToolkit), a skill aplica a lógica de Reynolds (1961) para verificar o controle de estímulo. A nuance técnica é a detecção de se o participante responde ao constructo pretendido ou a pistas periféricas, tratando o ruído de hardware via Modelos Lineares de Efeitos Mistos (LMM).
+
+Protocolo de Rigor Científico (Anti-Alucinação): Um diferencial técnico é o protocolo integrado que proíbe inferências sem base empírica. Antes de qualquer análise, a skill verifica a validade das premissas matemáticas e exige a ancoragem em constructos validados em repositórios como Google Scholar. Cada sugestão metodológica é acompanhada da referência ao autor ou método (ex: Zebende, 2011; Marinho et al., 2024; Shaughnessy et al., 2012), garantindo a rastreabilidade e a confiabilidade das informações.
 
 Casos de Uso e Especificidades: A skill é para pesquisadores que necessitam de análises estatísticas em diversas áreas:
 
@@ -53,9 +55,9 @@ Casos de Uso e Especificidades: A skill é para pesquisadores que necessitam de 
 
 • Psicologia Clínica: Validação de instrumentos psicométricos via SEM, identificação de redes de sintomas em transtornos mentais e avaliação da eficácia de intervenções comportamentais com base na fluência.
 
-• Educação: Monitoramento da aceleração da aprendizagem e tomada de decisão pedagógica baseada em dados de frequência de resposta.
+• Educação: Monitoramento da aceleração da aprendizagem e tomada de decisão pedagógica baseada em dados de frequência de resposta e análise de controle de estímulo.
 
-• Bioestatística: Análise de séries temporais de dados de saúde (ex: variabilidade cardíaca, níveis hormonais) para identificar padrões e correlações não lineares.
+• Bioestatística: Análise de séries temporais de dados de saúde (ex: variabilidade cardíaca, níveis hormonais) para identificar padrões e correlações não lineares multiescala.
 
 Integração com Outras Skills Acadêmicas:
 
