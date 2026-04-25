@@ -1,45 +1,101 @@
-# Manus Skills Acadêmicos
+# 🎓 Academic & Research AI Skills Suite (v2.0)
 
-Este repositório contém arquivos `.skill` criados para apoiar pesquisa, escrita e análise acadêmica.  
-As skills estão organizadas por categorias para facilitar o uso e adaptação em diferentes IAs (Claude, Gemini, GPT, Copilot, NotebookLM, etc.).
+Este repositório apresenta uma coleção de Skills especializadas para o Manus, meticulosamente projetadas para otimizar e aprimorar o fluxo de trabalho acadêmico. Cada skill foi desenvolvida com foco no rigor científico, na precisão metodológica e na eficiência operacional, fornecendo suporte contextualizado e acionável em todas as etapas da pesquisa.
 
 ---
 
 ## 📑 Índice
-- [Assistentes de Escrita e Revisão](#-assistentes-de-escrita-e-revisão)
-- [Inteligência Acadêmica e Redes](#-inteligência-acadêmica-e-redes)
-- [Ética e Comitês](#-ética-e-comitês)
-- [Visualização e Dados](#-visualização-e-dados)
-- [Metodologia e Teoria](#-metodologia-e-teoria)
-- [Oráculos e Apoio](#-oráculos-e-apoio)
+- [Academic Data Visualizer](#-academic-data-visualizer-academic-data-visualizer)
+- [Academic Document Oracle](#-academic-document-oracle-academic-document-oracle)
+- [Academic Methodology Builder](#-academic-methodology-builder-academic-methodology-builder)
+- [Academic Network Intelligence](#-academic-network-intelligence-academic-network-intelligence)
+- [Academic Researcher](#-academic-researcher-academic-researcher)
+- [Academic Theory Analyzer](#-academic-theory-analyzer-academic-theory-analyzer)
+- [Scite AI Assistant](#-scite-ai-assistant-scite-ai-assistant)
+- [Scientific Writing Reviewer](#-scientific-writing-reviewer-scientific-writing-reviewer)
+- [Theory Mapper](#-theory-mapper-theory-mapper)
+- [Ethics Committee Assistant](#-ethics-committee-assistant-ethics-committee-assistant)
+- [Como Usar](#-como-usar)
+- [Diferenciais Técnicos](#-diferenciais-técnicos)
 - [Licença](#-licença)
 
 ---
 
-## 📚 Assistentes de Escrita e Revisão
-- **scite-ai-assistant.skill** → suporte na busca e citação de artigos científicos.  
-- **scientific-writing-reviewer.skill** → revisão de textos acadêmicos, garantindo clareza e normas científicas.  
+## 📊 Academic Data Visualizer (academic-data-visualizer)
+Converte dados brutos (CSV, Excel) em visualizações gráficas de alta qualidade, adequadas para publicações acadêmicas.  
+Opera como orquestrador de bibliotecas Python (matplotlib, seaborn), interpretando semanticamente o pedido do usuário para escolher o gráfico mais apropriado.  
+Inclui importação e pré-análise de dados, geração de gráficos acadêmicos, personalização estética e exportação em alta qualidade (300 DPI).
 
-## 🧠 Inteligência Acadêmica e Redes
-- **academic-network-intelligence.skill** → análise de redes de pesquisa e colaboração acadêmica.  
-- **academic-researcher.skill** (pasta compactada) → conjunto de ferramentas para apoio geral em pesquisa.  
+---
 
-## ⚖️ Ética e Comitês
-- **ethics-committee-assistant.skill** → suporte em processos de comitês de ética e conformidade acadêmica.  
+## 🔮 Academic Document Oracle (academic-document-oracle)
+Sistema RAG rigoroso que responde exclusivamente com base em documentos fornecidos, evitando alucinações.  
+Gera resumos e tópicos principais com citações ABNT em notas de rodapé.  
+Se a informação não estiver presente, reporta ausência em vez de inventar dados.
 
-## 📊 Visualização e Dados
-- **academic-data-visualizer.skill** → criação de gráficos e visualizações de dados acadêmicos.  
+---
 
-## 🏗️ Metodologia e Teoria
-- **academic-methodology-builder.skill** → construção de metodologias de pesquisa.  
-- **academic-theory-analyzer.skill** → análise de teorias e frameworks acadêmicos.  
-- **theory-mapper** (pasta compactada) → mapeamento de teorias e conceitos.  
+## 🧪 Academic Methodology Builder (academic-methodology-builder)
+Auxilia na estruturação da seção de Metodologia, garantindo rigor e reprodutibilidade.  
+Cria esqueleto textual para desenho experimental, detalha instrumentos (ex: propriedades psicométricas) e descreve procedimentos de coleta de dados de forma replicável.
 
-## 🔮 Oráculos e Apoio
-- **academic-document-oracle.skill** → organização e consulta de documentos acadêmicos.  
+---
+
+## 🕸️ Academic Network Intelligence (academic-network-intelligence)
+Ferramenta para análise de literatura científica via redes de citação e co-citação.  
+Gera mapas visuais de pesquisa, sugere artigos similares ao seed paper e integra com Zotero para exportação em BibTeX.
+
+---
+
+## 🔎 Academic Researcher (academic-researcher)
+Motor de busca especializado em bases científicas (PubMed, SciELO, Scopus, Web of Science).  
+Traduz consultas complexas em sintaxes otimizadas, aplica filtros de qualidade e retorna referências completas em ABNT/APA com DOI.
+
+---
+
+## 🧠 Academic Theory Analyzer (academic-theory-analyzer)
+Realiza análise acadêmica e mapeamento teórico, relacionando hipóteses com evidências científicas recentes.  
+Identifica convergências e lacunas, fortalecendo a fundamentação teórica.
+
+---
+
+## 🔍 Scite AI Assistant (scite-ai-assistant)
+Analisa citações contextuais (Smart Citations), classificando estudos como apoiadores, contraditórios ou apenas mencionadores.  
+Verifica referências e alerta sobre retratações ou controvérsias relevantes.
+
+---
+
+## ✍️ Scientific Writing Reviewer (scientific-writing-reviewer)
+Revisa textos acadêmicos para emular estilo pré-2020, eliminando maneirismos de IA.  
+Ajusta ritmo e sintaxe para clareza e autenticidade, substitui termos vagos por exemplos concretos e exige fundamentação.
+
+---
+
+## 🗺️ Theory Mapper (theory-mapper)
+Mapeia evolução temporal de conceitos e teorias, organizando literatura cronologicamente.  
+Identifica pontos de inflexão e controvérsias, destacando falhas de replicação.
+
+---
+
+## ⚖️ Ethics Committee Assistant (ethics-committee-assistant)
+Auxilia na elaboração de documentos éticos (TCLE, Folha de Rosto) conforme regulamentações CNS/Plataforma Brasil.  
+Gera rascunhos claros e adaptados ao público-alvo, cobrindo riscos, benefícios e confidencialidade.
+
+---
+
+## 🚀 Como Usar
+- **Instalação:** importe os arquivos `.skill` para o ambiente Manus.  
+- **Invocação:** use comandos diretos como `Use o academic-researcher para buscar...` ou aplique o `scientific-writing-reviewer` para revisar textos.
+
+---
+
+## 📌 Diferenciais Técnicos
+- **Anti-Alucinação:** foco em RAG rigoroso e validação cruzada.  
+- **Rigor Normativo:** suporte nativo para ABNT, APA e regulamentações éticas.  
+- **Combate a Vícios de IA:** filtros estilísticos para garantir voz acadêmica autêntica.  
 
 ---
 
 ## 📜 Licença
 Este projeto está licenciado sob a [Apache License 2.0](LICENSE).  
-Isso significa que qualquer pessoa pode usar, copiar, modificar e distribuir os arquivos, inclusive em projetos comerciais, desde que mantenha os créditos originais e respeite os termos da licença.
+Qualquer pessoa pode usar, copiar, modificar e distribuir os arquivos, inclusive em projetos comerciais, desde que mantenha os créditos originais e respeite os termos da licença.
