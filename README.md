@@ -16,6 +16,7 @@ Este repositório apresenta uma coleção de Skills especializadas para o Manus,
 - [Scientific Writing Reviewer](#-scientific-writing-reviewer-scientific-writing-reviewer)
 - [Theory Mapper](#-theory-mapper-theory-mapper)
 - [Ethics Committee Assistant](#-ethics-committee-assistant-ethics-committee-assistant)
+- [ Academic Core Orchestrator](#-academic-core-orchestrator)
 - [Como Usar](#-como-usar)
 - [Diferenciais Técnicos](#-diferenciais-técnicos)
 - [Licença](#-licença)
@@ -149,6 +150,48 @@ Funcionalidades e Nuances Técnicas:
 
 ## ⚖️ Ethics Committee Assistant (ethics-committee-assistant)
 Descrição: Auxilia na elaboração de documentos éticos (TCLE, Folha de Rosto) conforme as regulamentações vigentes (CNS/Plataforma Brasil).
+
+
+# Academic Core Orchestrator
+
+Esta skill é o centro de comando para o ciclo de pesquisa acadêmica, integrando 10 ferramentas especializadas. Ela coordena desde a busca em bases científicas até a análise estatística de alta complexidade, mantendo a integridade metodológica e o rigor científico.
+
+## 🛠️ Skills Integradas (O Núcleo Acadêmico)
+
+1.  **Bio-Psico-Stats Expert:** Especialista em estatística aplicada (Zebende/Marinho), SEM, Redes e experimentos online.
+2.  **Scite AI Assistant:** Validação de evidências via Smart Citations e confiabilidade de referências.
+3.  **Academic Researcher:** Busca rigorosa em bases científicas (Google Scholar, PubMed, SciELO).
+4.  **Scientific Writing Reviewer:** Revisão técnica para eliminar maneirismos de IA e garantir tom acadêmico puro.
+5.  **Academic Methodology Builder:** Estruturação de desenhos experimentais e procedimentos (Shaughnessy et al.).
+6.  **Ethics Committee Assistant:** Preparação de documentação para CEP/Plataforma Brasil (TCLE/Folha de Rosto).
+7.  **Academic Theory Analyzer:** Fundamentação de hipóteses e relação entre teoria e evidência.
+8.  **Theory Mapper:** Mapeamento cronológico, controvérsias e evolução de conceitos.
+9.  **Academic Network Intelligence:** Análise de redes de citação, seed papers e integração com Zotero.
+10. **Academic Data Visualizer:** Geração de gráficos acadêmicos de alta resolução (GPA, Boxplots, Redes).
+
+## 🧠 Lógica de Operação e Espectro
+
+O orquestrador transita entre os pilares fundamentais da ciência:
+- **Eixo Biofísico:** Métodos DCCA/DMC para sinais complexos.
+- **Eixo Comportamental:** Métodos de Precision Teaching e Celeration para fluência.
+- **Eixo Metodológico:** Validação de controle de estímulo e rigor no desenho experimental.
+
+## 📋 Protocolo de Rigor Científico
+
+- **Anti-Alucinação:** Proibição de inferências sem ancoragem em repositórios validados.
+- **Citação de Autoridade:** Referenciação obrigatória de autores e métodos (Zebende, Marinho, Reynolds, Shaughnessy).
+- **Independência de Dados:** Esta skill foca na literatura externa e análise estatística. Para consultas estritas a documentos privados, deve-se utilizar o `academic-document-oracle` separadamente.
+
+## 🔄 Fluxo de Trabalho Unificado
+
+1.  **Descoberta e Mapeamento:** Pesquisa (Researcher) -> Redes (Network) -> História (Theory Mapper).
+2.  **Validação e Teoria:** Análise Crítica (Scite) -> Fundamentação (Theory Analyzer).
+3.  **Planejamento e Ética:** Metodologia (Builder) -> Conformidade Ética (Ethics Assistant).
+4.  **Execução e Análise:** Processamento Estatístico (Stats Expert) -> Visualização (Data Visualizer).
+5.  **Refino Final:** Revisão de Escrita (Writing Reviewer) -> Padronização (ABNT/APA).
+
+---
+**Nota:** O `academic-document-oracle` NÃO está integrado a esta skill para garantir o isolamento total de documentos privados. Invoque-o de forma independente para consultas RAG.
 
 Funcionalidades e Nuances Técnicas:
 •Geração de TCLE: Cria rascunhos com linguagem adaptada ao público-alvo, garantindo que todos os requisitos éticos (riscos, benefícios, confidencialidade) sejam abordados de forma clara.
